@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Internship Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Internship Board</h1>
+    <p>Browse open internships and apply in a few steps.</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="list-title">
+      <h2 id="list-title">Internships</h2>
+
+      <div class="filters">
+        <label>Search
+          <input id="search" type="search" placeholder="Title or company">
+        </label>
+        <label>Status
+          <select id="status">
+            <option value="">All</option>
+            <option value="open">Open</option>
+            <option value="closed">Closed</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="state" role="status" aria-live="polite"></div>
+      <ul id="list" class="list"></ul>
+
+      <nav class="pager" aria-label="Pagination">
+        <button id="prev" type="button">Previous</button>
+        <span id="page-info"></span>
+        <button id="next" type="button">Next</button>
+      </nav>
+    </section>
+
+    <section id="apply-section" aria-labelledby="apply-title" hidden>
+      <h2 id="apply-title">Apply for <span id="apply-for"></span></h2>
+      <form id="apply-form" novalidate>
+        <input type="hidden" id="internship_id">
+
+        <label for="full_name">Full name</label>
+        <input id="full_name" name="full_name" type="text" autocomplete="name" required>
+        <p class="error" id="err-full_name"></p>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+        <p class="error" id="err-email"></p>
+
+        <label for="phone">Phone (optional)</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel">
+        <p class="error" id="err-phone"></p>
+
+        <label for="cover_note">Why are you a good fit? (20 to 1000 characters)</label>
+        <textarea id="cover_note" name="cover_note" rows="5" required></textarea>
+        <p class="error" id="err-cover_note"></p>
+
+        <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        <div class="actions">
+          <button type="submit" id="submit">Submit application</button>
+          <button type="button" id="cancel" class="secondary">Cancel</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

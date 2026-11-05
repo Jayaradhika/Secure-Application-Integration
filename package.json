@@ -1,0 +1,17 @@
+{
+  "name": "internship-board",
+  "version": "1.0.0",
+  "description": "Internship board: Express API, secure application form and tests",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test --test-reporter=spec"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^8.0.0"
+  }
+}

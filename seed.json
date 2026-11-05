@@ -1,0 +1,10 @@
+[
+  { "title": "Frontend Developer Intern", "company": "Lumen Labs", "location": "Bengaluru", "work_mode": "hybrid", "duration_weeks": 12, "stipend": 15000, "status": "open", "description": "Build React components for a learning platform." },
+  { "title": "Backend Developer Intern", "company": "Northwind Tech", "location": "Chennai", "work_mode": "onsite", "duration_weeks": 16, "stipend": 18000, "status": "open", "description": "Work on Node.js APIs and databases." },
+  { "title": "Data Analyst Intern", "company": "Brightpath Analytics", "location": "Remote", "work_mode": "remote", "duration_weeks": 8, "stipend": 10000, "status": "open", "description": "Clean data and build dashboards." },
+  { "title": "UI/UX Design Intern", "company": "Pixel Orchard", "location": "Kochi", "work_mode": "hybrid", "duration_weeks": 10, "stipend": 12000, "status": "closed", "description": "Design mobile app screens and prototypes." },
+  { "title": "Machine Learning Intern", "company": "Quantum Leaf", "location": "Hyderabad", "work_mode": "onsite", "duration_weeks": 20, "stipend": 25000, "status": "open", "description": "Train and evaluate classification models." },
+  { "title": "Cybersecurity Intern", "company": "Shieldwork", "location": "Remote", "work_mode": "remote", "duration_weeks": 12, "stipend": 14000, "status": "open", "description": "Assist with vulnerability scans and reports." },
+  { "title": "Technical Writing Intern", "company": "Docsmith", "location": "Pune", "work_mode": "remote", "duration_weeks": 6, "stipend": 8000, "status": "closed", "description": "Write developer guides and API docs." },
+  { "title": "DevOps Intern", "company": "Cloudharbor", "location": "Thiruvananthapuram", "work_mode": "hybrid", "duration_weeks": 14, "stipend": 16000, "status": "open", "description": "Help maintain CI/CD pipelines." }
+]
